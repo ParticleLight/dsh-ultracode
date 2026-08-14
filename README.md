@@ -1,5 +1,7 @@
 # dsh-ultracode
 
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
+
 UltraCode agent preset for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — a working mode, not just an effort level.
 
 UltraCode is on. The preset gives every session using it:
