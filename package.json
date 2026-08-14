@@ -1,13 +1,13 @@
 {
   "name": "dsh-ultracode",
-  "description": "UltraCode agent preset for DeepSeek Harness — maximum-depth reasoning, plan → execute → verify, and parallel subagent orchestration, as a one-command-install mode.",
+  "description": "UltraCode agent preset for DeepSeek Harness 鈥?maximum-depth reasoning, plan 鈫?execute 鈫?verify, and parallel subagent orchestration, as a one-command-install mode.",
   "version": "1.0.0",
   "type": "module",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<OWNER>/dsh-ultracode.git"
+    "url": "git+https://github.com/ParticleLight/dsh-ultracode.git"
   },
   "keywords": [
     "deepseek",
