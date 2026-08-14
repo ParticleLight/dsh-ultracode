@@ -1,0 +1,7 @@
+# dsh-ultracode: registers the UltraCode agent preset.
+
+# On first boot the plugin copies agent-presets/ultracode into
+# $DSH_HOME/.agent-presets/, where DSH auto-discovers it as a user preset.
+# No further configuration is needed.
+- id: ultracode-installer
+  name: dsh-ultracode

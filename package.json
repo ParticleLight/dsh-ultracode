@@ -1,0 +1,48 @@
+{
+  "name": "dsh-ultracode",
+  "description": "UltraCode agent preset for DeepSeek Harness — maximum-depth reasoning, plan → execute → verify, and parallel subagent orchestration, as a one-command-install mode.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<OWNER>/dsh-ultracode.git"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "ultracode",
+    "agent-preset",
+    "workflow"
+  ],
+  "scripts": {
+    "check": "node --check lib/index.js"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-home-paths": "^0.1.0-rc.6"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "agent-presets",
+    "cordis.patch.yml"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
